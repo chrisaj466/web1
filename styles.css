@@ -7,11 +7,13 @@ body{
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 1rem;
+    color: #444444;
     
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'inter', sans-serif;
     font-weight: 600;
+    color: #222222;
 }
 h1{font-size: 2.5 rem;}
 h2{font-size: 2 rem;}
@@ -22,6 +24,49 @@ h6{font-size: 1 rem;}
 #navbar{
     padding: 8px;
     margin: 0;
+}
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+    
+}
+#application-form label{
+font-weight: 700;
+
+}
+#application-form input,select, textarea{
+    padding: 3px;
+    font-size: 1.1rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form-group textarea{
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+.form-group input[type="reset"]{
+    margin-left: 10px;
+    background-color:#3B82F6 ;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form-group [type="submit"]{
+    background-color:#3B82F6 ;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.form-group{
+    margin:  16px 0;
 }
 h1{
     text-align: center;
@@ -67,8 +112,9 @@ h1{
 .jobs-header-row th{
     border: 1px solid gray;
     padding: 8px;
-    background-color: aliceblue;
+    background-color: #dbeafe;
     text-align: center;
+    color: #222222;
 }
 .jobs-data-row td{
     border: 1px solid gray;
@@ -76,10 +122,14 @@ h1{
         
 }
 #jobs-table tr:nth-child(odd){
-  background-color: ghostwhite;
+  background-color: #EFF6FF;
 }
 a{
     text-decoration: none;
+    color: #3b82f6;
+}
+a:hover ,a:focus {
+    color:#1D4ED8
 }
 h2{
     text-align: center;
@@ -97,7 +147,7 @@ h3{
     float: right;
 }
 #footer{
-    background-color: ghostwhite;
+    background-color: #FAFAFA;
     padding: 8px;
     margin-top: 32px;
     text-align: center;
@@ -111,6 +161,6 @@ h3{
     margin: 0 16px;
 }
 .copyright{
-    color: gray;
+    color: #71717A;
     font-size: 0.675rem;
 }

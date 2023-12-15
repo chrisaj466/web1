@@ -85,6 +85,74 @@
                   <td>Appril 20, 2023</td>
             </tr>
         </table>
+        
+
+         <div id="application">
+           <h2>Submit your Application </h2>
+
+           <form action="https://formbold.com/s/601pM" id="application-form"
+           method="POST"
+           enctype="multipart/form-data"
+           
+           >
+
+            <div class="form-group">
+                <label for="name"> Full Name</label><br>
+                <input type="text" id="name" name="Full name" required placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email addres" required placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+               <label for="phone">Phone</label><br>
+               <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+            </div>
+              <div class="form-group">
+                <label for="dob">Date of Birth</label><br>
+                 <input type="date" id="dob" name="dob" required>
+              </div>
+            <div class="form-group">
+             <label for="position">Position Applied for</label>
+            <select name="Position Applied" id="position" required>
+                <option value="">Select position</option>
+                <option value="Frontend developer">Frontend Developer</option>
+                <option value="full stack developer">Full stack Developer</option>
+                <option value="data scientist">Data scientist</option>
+                <option value="ML engineer">ML Engineer </option>
+            </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Upload Resume </label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf/ .doc, .docx" required>
+            </div>
+            <div class="form-group">
+             <label for="coverletter">Cover Letter</label><br>
+             <textarea name="coverletter" id="coverletter"  rows="5" placeholder="Explain what makes you suitable for the job role."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="terms">
+                 <input type="checkbox" id="terms" name="terms" required>
+                 I agree to the terms and conditions
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" id="submit" value="Submit Application">   
+                <input type="reset" id="reset" value="Reset">
+          
+            </div>
+            
+                
+          
+           </form>
+
+
+
+
+
+         </div>
+
           <div id="footer">
             <ul id="footer-links">
                 <li>
